@@ -1,12 +1,12 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
-   setup(
-       name='ode_tools',
-       version='0.1',
-       packages=find_packages(),
-       install_requires=[
-           'numpy',
-           'matplotlib',
-           'scipy',
-       ],
-   )
+setup(
+    name='ode-tools-mod',
+    version='0.1.0',
+    packages=['utils'],
+    install_requires=[
+        'numpy',
+        'matplotlib',
+        'scipy',
+    ],
+)
